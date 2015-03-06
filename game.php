@@ -16,7 +16,7 @@
 			$rows = $result->fetch_all(MYSQLI_ASSOC);
 			foreach($rows as $row)
 			{
-				echo "<h1>".$row['game_name']."</h1><br>
+				echo "<h1 class = "game">".$row['game_name']."</h1><br>
 				<ul>
 					<li>Platform: ".$row['platform']."</li><br>
 					<li>Ontwikkelaar: ".$row['developer_name']."</li><br>
