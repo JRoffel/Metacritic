@@ -17,15 +17,14 @@
 				<?php
 					foreach($games as $game){   
 				?>
-				<tr>
-					<td><?= "<a href = game.php?id=".$game['game_id'].">".$game['game_name']."</a>"?></td>
-				</tr>
+	
+					<ul>
+						<li><?= "<a href = game.php?id=".$game['game_id'].">".$game['game_name']."</a>"?></li>
+						<li>platform: <?= $game['platform']?></li>
+						<li>developer: <?= $game['developer_name']?></li>
+						<li>publisher: <?= $game['publisher_name']?></li>
+					</ul>
 
-				<ul>
-					<li>platform: <?= $game['platform']?></li>
-					<li>developer: <?= $game['developer_name']?></li>
-					<li>publisher: <?= $game['publisher_name']?></li>
-				</ul>
 
 				<?php
 					}
