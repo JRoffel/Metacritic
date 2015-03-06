@@ -11,7 +11,7 @@ body {
 	border: 1px solid red;
 }
 
-h1 {
+h1.index {
 	line-height: 70px;
 	font-size: 50px;
 	margin-left: auto;
