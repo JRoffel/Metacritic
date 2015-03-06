@@ -10,7 +10,7 @@
 
 	<body>
 		<div class="content">
-			<h1 class = "Index">Metacritic</h1>
+			<h1 class="Index">Metacritic</h1>
 			<h2>Spellen</h2>
 
 			<table>

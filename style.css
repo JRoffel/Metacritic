@@ -14,9 +14,12 @@ body {
 h1.game {
 	color: white;
 	font-size: 30px;
+	width: 1000px;
+	height: 70px;
+	background-color: #CC0000;
 }
 
-h1.index {
+h1.Index {
 	line-height: 70px;
 	font-size: 50px;
 	margin-left: auto;
