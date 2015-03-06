@@ -1,0 +1,70 @@
+body {
+	background-color: black;
+}
+
+.container {
+	color: white;
+	width: 780px;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	border: 1px solid red;
+}
+
+h1 {
+	line-height: 70px;
+	font-size: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 30px;
+	font-family: arial;
+	color: white;
+	width: 1000px;
+	height: 70px;
+	background-color: #CC0000;
+	border-bottom: 2px solid white;
+	border-top: 2px solid white;
+}
+
+a {
+	color: white;
+	font-size: 20px;
+}
+
+a:hover {
+	color: red;
+}
+
+.header {
+	background-color: #850000;
+}
+
+.naam  {
+	padding-left: 100px;
+	padding-bottom: 50px;
+}
+
+h2 {
+	font-family: arial;
+	color: white;
+	padding-left: 30px;
+}
+
+table {
+	color: white;
+	padding-left: 70px;
+}
+
+.content {
+	width: 1030px;
+	height: 400px;
+	margin-right: auto;
+	margin-left: auto;
+	border-left: 1px solid #CC0000;
+	border-right: 1px solid #CC0000;
+	border-bottom: 1px solid #CC0000;
+}
+
+ul{
+	color:white;
+}
