@@ -13,7 +13,8 @@ body {
 
 h1.game {
 	color: white;
-	font-size: 30px;
+	font-family: arial;
+	font-size: 50px;
 	width: 1000px;
 	height: 70px;
 	background-color: #CC0000;
@@ -65,7 +66,7 @@ table {
 
 .content {
 	width: 1030px;
-	height: 400px;
+	height: auto;
 	margin-right: auto;
 	margin-left: auto;
 	border-left: 1px solid #CC0000;
@@ -76,3 +77,25 @@ table {
 ul{
 	color:white;
 }
+
+li.link {
+	margin-left: 70px;
+	padding: 0px;
+}
+
+.game_container {
+	margin-right: auto;
+	margin-left: auto;
+	width: 1000px;
+	height: auto;
+	border: 1px solid #CC0000;
+}
+
+.game_box {
+	margin-left: 50px;
+}
+
+.GameName {
+	color: white;
+}
+

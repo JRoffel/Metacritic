@@ -19,7 +19,7 @@
 				?>
 	
 					<ul>
-						<li><?= "<a href = game.php?id=".$game['game_id'].">".$game['game_name']."</a>"?></li>
+						<li class="link"><?= "<a href = game.php?id=".$game['game_id'].">".$game['game_name']."</a>"?></li>
 					</ul>
 
 
