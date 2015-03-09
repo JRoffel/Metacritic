@@ -20,9 +20,6 @@
 	
 					<ul>
 						<li><?= "<a href = game.php?id=".$game['game_id'].">".$game['game_name']."</a>"?></li>
-						<li>platform: <?= $game['platform']?></li>
-						<li>developer: <?= $game['developer_name']?></li>
-						<li>publisher: <?= $game['publisher_name']?></li>
 					</ul>
 
 
