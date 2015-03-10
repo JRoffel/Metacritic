@@ -20,14 +20,14 @@
 			<?php	
 				foreach($reviews as $review){
 			?>
-				<p class = "review"><br>
-							<ul>
-								<li><?= $review['website_name']?></li><br>
-								<li><?= $review['grade']?>/100</li><br>
-								<li><?= $review['description']?></li><br>
-								<li><a href="<?= $review['review_url']?>">Lees meer</a></li><br>
-							</ul>
-				<p>
+			<p class = "review"><br>
+				<ul>
+					<li><?= $review['website_name']?></li><br>
+					<li><?= $review['grade']?>/100</li><br>
+					<li><?= $review['description']?></li><br>
+					<li><a href="<?= $review['review_url']?>">Lees meer</a></li><br>
+				</ul>
+			<p>
 			<?php
 				}
 			?>
